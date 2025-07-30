@@ -2,34 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NextFold Media</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>NextFold Media 🎬</h1>
-    <p>Watch our latest videos below</p>
+    <div class="container">
+      <img src="logo.png" alt="NextFold Media Logo" class="logo" />
+      <h1>NextFold Media</h1>
+      <p>Your Destination for Creative Visuals</p>
+    </div>
   </header>
 
-  <main>
-    <section class="video">
-      <h2>Featured Video 1</h2>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" 
-              title="YouTube video player" frameborder="0"
-              allowfullscreen></iframe>
-    </section>
-
-    <section class="video">
-      <h2>Featured Video 2</h2>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_2"
-              title="YouTube video player" frameborder="0"
-              allowfullscreen></iframe>
+  <main class="container">
+    <section class="video-grid">
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+        <h2>Video Title 1</h2>
+      </div>
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+        <h2>Video Title 2</h2>
+      </div>
+      <!-- Add more videos like above -->
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 NextFold Media. All rights reserved.</p>
+    <p>&copy; 2025 NextFold Media | Follow us on 
+      <a href="https://youtube.com" target="_blank">YouTube</a> | 
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+    </p>
   </footer>
 </body>
 </html>
